@@ -1,0 +1,22 @@
+{
+  "plans": {
+    "plan:pro@2": {
+      "title": "Convert (Pro)",
+      "features": {
+        "feature:convert": {
+          "title": "Temperature Conversions",
+          "tiers": [
+            {
+              "base": 10000,
+              "price": 0,
+              "upto": 1000
+            },
+            {
+              "price": 200
+            }
+          ]
+        }
+      }
+    }
+  }
+}
