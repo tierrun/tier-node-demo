@@ -1,0 +1,36 @@
+{
+  "plans": {
+    "plan:free@1": {
+      "title": "Convert (free)",
+      "features": {
+        "feature:convert": {
+          "title": "Temperature Conversions",
+          "tiers": [
+            {
+              "upto": 10,
+              "price": 0
+            }
+          ]
+        }
+      }
+    },
+    "plan:pro@1": {
+      "title": "Convert (Pro)",
+      "features": {
+        "feature:convert": {
+          "title": "Temperature Conversions",
+          "tiers": [
+            {
+              "base": 1000,
+              "price": 0,
+              "upto": 100
+            },
+            {
+              "price": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}
