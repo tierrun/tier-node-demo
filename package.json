@@ -10,12 +10,23 @@
     "dev": "env $(cat .env) npm start"
   },
   "dependencies": {
+    "actual-request-url": "^1.0.4",
     "body-parser": "^1.20.0",
     "cookie-parser": "^1.4.6",
     "ejs": "^3.1.7",
     "express": "^4.18.1",
     "express-session": "^1.17.2",
-    "stripe": "^10.10.0",
-    "tier": "^2.4.0"
+    "tier": "^4.1.1"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "jsxSingleQuote": false,
+    "bracketSameLine": true,
+    "arrowParens": "avoid",
+    "endOfLine": "lf"
   }
 }
