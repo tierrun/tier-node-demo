@@ -3,6 +3,10 @@
 A demo of using [tier](https://tier.run) to implement pricing in
 an application.
 
+Code for the [Tier Hello World Demo (now with Stripe
+Checkout!)](https://github.com/tierrun/tier/wiki/Tier-Hello-World-Demo-(now-with-Stripe-Checkout!))
+blog post.
+
 ## Running this demo locally
 
 1. [Install tier](https://tier.run/docs/install)
