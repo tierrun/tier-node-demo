@@ -30,3 +30,16 @@ the final merge commit to see it all together at once.
 Most of the tier-related parts are in `lib/routes.js`, and the
 templates in `lib/templates/*.ejs` for the various pricing/plan
 related pages.
+
+## To play with payment methods and setup intents
+
+Put this in your `.env` file:
+
+```
+NODE_ENV=development
+PORT=8300
+STRIPE_KEY=<private key for stripe>
+STRIPE_PUBLISHABLE_KEY=<publishable key for stripe>
+```
+
+And run `env $(cat .env) npm start`
